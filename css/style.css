@@ -349,6 +349,7 @@ ul {
 }
 .features-item span {
   text-transform: capitalize;
+  color: var(--black-900);
 }
 
 /* Story */
