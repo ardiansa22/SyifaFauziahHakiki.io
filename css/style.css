@@ -421,6 +421,9 @@ footer .copyright-text i {
   .navbar-nav {
     box-shadow: var(--shadow-black-300);
   }
+}
+
+@media (min-widht: 1200px) {
   .owl-carousel .owl-dots {
     padding: 0 15px;
     text-align: center;
