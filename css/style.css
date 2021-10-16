@@ -106,7 +106,7 @@ ul {
   margin: 0;
   color: var(--black-900);
 }
-.owl-carousel .owl-dots {
+/* .owl-carousel .owl-dots {
   padding: 0 15px;
   text-align: center;
   margin-top: 20px;
@@ -121,7 +121,7 @@ ul {
 }
 .owl-carousel button.owl-dot.active {
   background-color: var(--main-color);
-}
+} */
 /* ------------------------------------------Navbar------------------------------------- */
 .navbar {
   background-color: transparent;
@@ -420,5 +420,21 @@ footer .copyright-text i {
   }
   .navbar-nav {
     box-shadow: var(--shadow-black-300);
+  }
+  .owl-carousel .owl-dots {
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .owl-carousel button.owl-dot {
+    height: 6px;
+    width: 24px;
+    background-color: #dddddd;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 5px;
+  }
+  .owl-carousel button.owl-dot.active {
+    background-color: var(--main-color);
   }
 }
